@@ -1,0 +1,28 @@
+.bread-crumb{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: url('../../Assets/banner-bg.jpg') center;
+    background-size: cover;
+    padding: 70px 0;
+}
+.bread-crumb h2{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.bread-crumb .bread-content{
+    background-color: var(--main-color);
+    color: #fff;
+    max-width: 220px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 12px;
+}
+.bread-crumb .bread-content span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.bread-crumb .bread-content span i{ margin-right: 6px;}
+.bread-crumb .bread-content span a{ color: #fff;}

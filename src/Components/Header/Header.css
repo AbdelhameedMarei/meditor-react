@@ -1,0 +1,93 @@
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: var(--nav-color) !important;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.navbar-brand{ width: 180px;}
+.navbar-nav .nav-link{
+    padding: 10px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.contact-us-link a{ color: var(--secondary-color);}
+.navbar-nav a.active.nav-link a,
+.navbar-nav .nav-link:hover,
+.contact-us-link a:hover{
+    color: var(--org-color);
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+.dropdown-toggle::after{
+    font-family: 'FontAwesome';
+    content: '\2b' !important;
+    border: 0 !important;
+    font-size: 10px;
+    position: relative;
+    top: 1px;
+    left: 5px;
+    color: #bbbbcf;
+    transition: all .5s;
+}
+.navbar-nav .nav-link:hover.dropdown-toggle::after{
+    transform: rotate(45deg);
+    color: var(--org-color);
+}
+.dropdown-menu{
+    padding: 0 !important;
+    border: 1px solid var(--secondary-color) !important;
+    width: 200px;
+}
+.dropdown-menu .dropdown-item{
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.dropdown-menu .dropdown-item a{ color: #222; }
+.dropdown-menu .dropdown-item:hover{ background-color: var(--main-color);}
+.dropdown-menu .dropdown-item:hover a{ color: #fff; }
+
+.search-icon{
+    margin-left: 25px;
+    transform: rotateY(180deg);
+    float: left;
+}
+.search-icon i{ font-size: 20px }
+.contact-btn button{
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contact-btn button i{
+    color: var(--main-color);
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+.contact-btn button:hover{
+    background-color: #393ec7;
+    transition: all .4s ease-in-out;
+}
+.navbar-toggler{ border: 0 !important;}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav .nav-link{margin-top: 0;}
+    .search-icon i{ display: none;}
+    .contact-btn button{ width: 100%;}
+}

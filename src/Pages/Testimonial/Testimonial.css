@@ -1,0 +1,83 @@
+.testimonial{ background-color: #fff; padding-top: 10px; padding-bottom: 0;}
+.testimonial .main-title{ text-align: center; }
+.testimonial .main-title .para-title{ margin: 0 auto; }
+.testimonial .main-title .head-title{ max-width: 550px; margin: 20px auto;}
+.testimonial .row{ margin-top: 50px; }
+.testimonial .testimonial-img{ position: relative;}
+.testimonial .testimonial-img ul li img{
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+}
+.testimonial .testimonial-img ul li .test1{ top: 0; left: 50%; transform: translateX(-50%);}
+.testimonial .testimonial-img ul li .test2{ top: 25%; left: 25px;}
+.testimonial .testimonial-img ul li .test3{ top: 25%; right: 25px;}
+.testimonial .testimonial-img ul li .test4{ top: 65%; left: 30px;}
+.testimonial .testimonial-img ul li .test5{ top: 65%; right: 30px;}
+.testimonial .testimonial-img ul li .test6{ bottom: 0; left: 50%; transform: translateX(-50%);}
+.testimonial .slider{
+    padding: 40px 30px;
+    background-color: var(--org-color);
+    border-radius: 25px 0 25px 25px;
+    color: #fff;
+    position: relative;
+}
+.testimonial .slider p{
+    max-width: 90%;
+    line-height: 1.8;
+    font-style: italic;
+    padding-top: 25px;
+}
+.testimonial .slider h5{
+    font-weight: bold;
+    margin-top: 30px;
+}
+.testimonial .slider h6{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.testimonial .slider i.fa-quote-right{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    font-size: 120px;
+    color: #F59F6F;
+}
+.testimonial .slider i.fa-quote-left{
+    font-size: 40px;
+    background-color: #fff;
+    color: var(--org-color);
+    border-radius: 15px 0 15px 0;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.swiper-button-next:after{
+    font-family: "FontAwesome";
+    content: '\f061';
+    font-size: 18px;
+    color: var(--org-color);
+    background-color: #FFE4D5;
+    padding: 14px;
+    border-radius: 8px;
+    position: absolute;
+    top: 120px;
+    right: 160px;
+}
+.swiper-button-prev:after{
+    font-family: "FontAwesome";
+    content: '\f060';
+    font-size: 18px;
+    color: var(--org-color);
+    background-color: #FFE4D5;
+    padding: 14px;
+    border-radius: 8px;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}

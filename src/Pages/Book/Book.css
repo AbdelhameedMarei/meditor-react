@@ -1,0 +1,130 @@
+.book{ background-color: #FFF;}
+.book .row{
+    background-color: #F5F5FC;
+    border-radius: 40px;
+    padding: 80px 40px;
+}
+.book .book-content{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    position: relative;
+    z-index: 999 !important;
+}
+.book .book-content::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 30px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    z-index: -1 !important;
+}
+.book .book-content h2{
+    color: var(--secondary-color);
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.book .book-content form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.book .book-content form select,
+.book .book-content form input{
+    padding: 15px;
+    font-weight: 500;
+}
+
+.book .book-content form button{
+    width: 60%;
+    margin: auto;
+    padding: 15px 0px;
+}
+.book .book-img{
+    position: relative;
+    margin-top: 100px;
+}
+.book .book-img .women-img{
+    position: absolute;
+    right: 15px;
+    bottom: 12px;
+    height: 270px;
+    animation: move-x 3s forwards infinite;
+    -webkit-animation: move-x 3s forwards infinite;
+}
+.book .book-img .book-img-1,
+.book .book-img .book-img-2,
+.book .book-img .book-img-3,
+.book .book-img .book-img-4{
+    position: absolute;
+    animation: move-y 3s forwards infinite;
+    -webkit-animation: move-y 3s linear infinite;
+}
+.book .book-img .book-img-1{
+    right: 75px;
+    top: 40px;
+    width: 70px;
+}
+.book .book-img .book-img-2{
+    width: 50px;
+    right: 140px;
+    bottom: 70px;
+    animation: move-y 6s forwards infinite;
+    -webkit-animation: move-y 6s forwards infinite;
+}   
+.book .book-img .book-img-3{
+    width: 55px;
+    left: 55px;
+    top: 170px
+}
+.book .book-img .book-img-4{
+    width: 40px;
+    left: 20px;
+    top: 70px;
+    animation: move-y 6s forwards infinite;
+    -webkit-animation: move-y 6s forwards infinite;
+}
+.book .book-img .org-shape{
+    position: absolute;
+    bottom: -150px;
+    right: 10px;
+    animation: move-y 6s forwards infinite;
+    -webkit-animation: move-y 6s forwards infinite;
+}
+.book .book-img .wave-shape{
+    width: 100px;
+    position: absolute;
+    top: -200px;
+    right: -20px;
+    animation: move-x 3s forwards infinite;
+    -webkit-animation: move-x 3s forwards infinite;
+}
+
+
+@keyframes move-x {
+    0%{ transform: translateX(-8px); }
+    50%{ transform: translateX(0px); }
+    100%{ transform: translateX(-5px); }
+}
+
+@keyframes move-y {
+    0%{ transform: translateY(-5px); -webkit-transform: translateY(-5px); -moz-transform: translateY(-5px); -ms-transform: translateY(-5px); -o-transform: translateY(-5px); }
+    25%{ transform: translateY(0px); -webkit-transform: translateY(0px); -moz-transform: translateY(0px); -ms-transform: translateY(0px); -o-transform: translateY(0px); }
+    50%{ transform: translateY(5px); -webkit-transform: translateY(5px); -moz-transform: translateY(5px); -ms-transform: translateY(5px); -o-transform: translateY(5px); }
+    75%{ transform: translateY(-5px); -webkit-transform: translateY(-5px); -moz-transform: translateY(-5px); -ms-transform: translateY(-5px); -o-transform: translateY(-5px); }
+    100%{ transform: translateY(-2px); -webkit-transform: translateY(-2px); -moz-transform: translateY(-2px); -ms-transform: translateY(-2px); -o-transform: translateY(-2px); }
+}
+
+
+@media screen and (max-width: 992px) {
+    .book .book-content form button{ width: 100% }
+}

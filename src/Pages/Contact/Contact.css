@@ -1,0 +1,75 @@
+.contact{ padding: 0;}
+.contact .contact-form{
+    padding: 50px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 3px #999;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.contact .contact-form form input,
+.contact .contact-form form select,
+.contact .contact-form form textarea {
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+.contact .contact-form form textarea{ height: 150px;}
+.contact .contact-form form select{ color: #333; font-weight: 500;}
+.contact .contact-form .contact-form-info{
+    background: linear-gradient(#5f63cbcb, #5f63cbe0), url('..//../Assets/about-01.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    padding: 82px 50px;
+    color: #fff;
+}
+.contact-form .contact-form-info h4{ font-weight: 700;}
+.contact-form .contact-form-info span{
+    margin-top: 25px;
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+}
+.contact-form .contact-form-info span i{ margin-right: 8px; }
+.contact-form .contact-form-info .break-line{
+    width: 50%;
+    height: 1px;
+    background-color: rgba(238, 238, 238, 0.534);
+    margin: 8px 0;
+}
+.contact-form .contact-form-info h6{ font-size: 14px; line-height: 1.6; }
+.contact-form .contact-form-info p{ font-weight: 500; }
+.contact-form .contact-form-info p:first-of-type{ margin-bottom: 6px; }
+.contact-form .contact-form-info .social-media{ display: inline-flex;}
+.contact-form .contact-form-info .social-media li{
+    margin: 10px 10px 0 0;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 6px;
+    transition: all .4s ;
+}
+.contact-form .contact-form-info .social-media li a{ color: var(--main-color);}
+.contact-form .contact-form-info .social-media li a i{
+    padding: 8px;
+}
+.contact-form .contact-form-info .social-media li:hover{
+    background-color: var(--org-color);
+}
+.contact-form .contact-form-info .social-media li:hover i{ 
+    color: #fff;
+    transition: all .4s ;
+}
+.error{ margin-top: -20px; margin-bottom: 10px; color: red; font-size: 14px; }
+
+@media screen and (max-width: 992px) {
+    .contact-form .contact-form-info{
+        margin-top: 30px;
+    }
+}

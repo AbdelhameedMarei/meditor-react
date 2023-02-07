@@ -1,0 +1,94 @@
+.works{ background: #fafafcb9;}
+.works .main-title{ text-align: center;}
+.works .main-title .para-title{ margin: 0 auto;}
+.works .work-box{
+    margin-top: 70px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 6px 1px #FDEFED;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+}
+.works .work-box h3{
+    font-size: 80px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px var(--org-color);
+    color: transparent;
+    text-shadow: -1px 10px 2px #f38d5242;
+}
+.works .work-box h4{
+    color: var(--org-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.works .work-box p{
+    line-height: 1.7;
+    margin-top: 15px;
+}
+.works .work-box button{
+    margin-top: 15px;
+    padding: 7px 5px 7px 30px;
+    background-color: var(--primary-color);
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+.works .work-box button i{
+    color: var(--main-color);
+    background-color: #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+.works .work-box.active{
+    background-color: var(--org-color);
+    transform: translateY(-30px);
+}
+.works .work-box.active h3,
+.works .work-box:hover h3{
+    -webkit-text-stroke: 2px #fff;
+    text-shadow: -1px 10px 2px #F38F5E;
+}
+.works .work-box.active h4,
+.works .work-box.active p,
+.works .work-box:hover h4,
+.works .work-box:hover p{
+    color: #fff;
+}
+.works .work-box.active button,
+.works .work-box:hover button{
+    background-color: #fff;
+    color: var(--org-color);
+}
+.works .work-box.active button i,
+.works .work-box:hover button i{
+    background-color: var(--org-color);
+    color: #fff;
+}
+.works .work-box::after{
+    content: "";
+    width: 100%;
+    height: 0%;
+    background-color: var(--org-color);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+}
+.works .work-box:hover::after{ height: 100%;}
+@media screen and (max-width: 992px) {
+    .works .work-box.last{
+        margin-top: 15px;
+    }
+}

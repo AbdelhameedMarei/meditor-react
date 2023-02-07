@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
+}
+html{scroll-behavior: smooth}
+:root{
+  --main-color: #565ACF;
+  --secondary-color: #1F2278;
+  --nav-color: #F7F7FF;
+  --org-color: #F17732;
+  --primary-color: #E6E7FF;
+}
+
+::selection{
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+ul{ padding: 0 !important; margin: 0 !important; list-style-type: none}
+a{ text-decoration: none !important }
+h1, h2, h3, h4, h5, h6, p{ margin: 0 }
+img{ max-width: 100%; }
+
+section{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+button{
+  text-align: center;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
+
+input,
+textarea,
+select{
+  outline: 0;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  border: 1px solid #d0d2fc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  appearance: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+  border: 1px solid var(--main-color);
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder{
+  color: #333;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.org-btn{
+  color: #fff;
+  background-color: var(--org-color);
+  padding: 17px 40px;
+  font-weight: 500;
+}
+.org-btn:hover{ opacity: .8; transition: .4s}
+
+.main-title .para-title{
+  color: var(--org-color);
+  font-weight: 700;
+  font-size: 17px;
+  background: url('./Assets/title-bg.png') center;
+  width: fit-content;
+  padding: 5px 10px;
+}
+.main-title .head-title{
+  color: var(--secondary-color);
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.main-p{
+    font-size: 14px;
+    color: #444;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 1.8;
+}
