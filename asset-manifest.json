@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/meditor-react/static/css/main.be3cd90f.css",
+    "main.js": "/meditor-react/static/js/main.256f4fc2.js",
+    "static/media/header-img.png": "/meditor-react/static/media/header-img.7c2bc96d67d3eba1d64a.png",
+    "static/media/slider-img-2.jpg": "/meditor-react/static/media/slider-img-2.df217f135f246019bfe2.jpg",
+    "static/media/banner-bg.jpg": "/meditor-react/static/media/banner-bg.815eb17ad747be75950d.jpg",
+    "static/media/slider-img-3.jpg": "/meditor-react/static/media/slider-img-3.071b1a9ae4aea07800ec.jpg",
+    "static/media/slider-img-4.jpg": "/meditor-react/static/media/slider-img-4.bc452f94e2367c8595c3.jpg",
+    "static/media/slider-img-1.jpg": "/meditor-react/static/media/slider-img-1.15769e0a1479ef50e471.jpg",
+    "static/media/appointment.png": "/meditor-react/static/media/appointment.f82d73222992d2101a09.png",
+    "static/media/about-02.jpg": "/meditor-react/static/media/about-02.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/about-01.jpg": "/meditor-react/static/media/about-01.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/header-bg.jpg": "/meditor-react/static/media/header-bg.080a0d4ec806f9bdc90d.jpg",
+    "static/media/about-03.jpg": "/meditor-react/static/media/about-03.fa689b1037dbf69567a3.jpg",
+    "static/media/footer-waves.png": "/meditor-react/static/media/footer-waves.3a87f405d07712054870.png",
+    "static/media/women.png": "/meditor-react/static/media/women.eb5c49c523f7d6240d33.png",
+    "static/media/wave-bg.png": "/meditor-react/static/media/wave-bg.1112f1ac0dc18e511a91.png",
+    "index.html": "/meditor-react/index.html",
+    "main.be3cd90f.css.map": "/meditor-react/static/css/main.be3cd90f.css.map",
+    "main.256f4fc2.js.map": "/meditor-react/static/js/main.256f4fc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be3cd90f.css",
+    "static/js/main.256f4fc2.js"
+  ]
+}
