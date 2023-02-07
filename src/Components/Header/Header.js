@@ -8,7 +8,7 @@ function Header(){
         <Navbar expand="lg" className='navbar'>
         <Container>
             <Navbar.Brand>
-                <Link to="/meditor-react">
+                <Link to="/">
                     <img src={logo} alt="logo" />
                 </Link>
             </Navbar.Brand>
@@ -16,7 +16,7 @@ function Header(){
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
                 <Nav.Link className='active'>
-                    <Link to="/meditor-react">Home</Link>
+                    <Link to="/">Home</Link>
                 </Nav.Link>
                 <NavDropdown title="Pages" id="basic-nav-dropdown">
                 <NavDropdown.Item>
