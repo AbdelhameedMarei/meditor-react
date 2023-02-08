@@ -13,8 +13,8 @@ function Book(){
     return(
         <section className="book">
             <Container>
-                <di className="row">
-                    <di className="col-lg-6 col-md-6 book-border">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6 book-border">
                         <div className="book-content">
                                 <h2>Book Appointment</h2>
                             <form>
@@ -36,8 +36,8 @@ function Book(){
                                 <button className="org-btn" type="submit">Appointment Now</button>
                             </form>
                         </div>
-                    </di>
-                    <di className="col-lg-6 col-md-6">
+                    </div>
+                    <div className="col-lg-6 col-md-6">
                         <div className="book-img">
                             <img src={bookImg} alt="booking img" />
                             <img src={women} alt="booking img" className="women-img" />
@@ -48,8 +48,8 @@ function Book(){
                             <img src={box7} alt="animation img" className="org-shape" />
                             <img src={box8} alt="animation img" className="wave-shape" />
                         </div>
-                    </di>
-                </di>
+                    </div>
+                </div>
             </Container>
         </section>
     )

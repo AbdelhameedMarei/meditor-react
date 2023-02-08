@@ -1,10 +1,11 @@
+import { useState } from "react";
+import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Header from './../../Components/Header/Header';
 import BreadCrumb from './../../Components/BreadCrumb/BreadCrumb';
 import Footer from './../../Components/Footer/Footer';
-import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import './Contact.css'
+import ScrollToTop from "./../../Components/ScrollToTop/ScrollToTop";
+import './Contact.css';
 
 function Contact(){
 
@@ -32,6 +33,7 @@ function Contact(){
 
     return(
         <>
+        <ScrollToTop />
         <Header />
         <BreadCrumb title="Contact Us" />
         <section className="contact">

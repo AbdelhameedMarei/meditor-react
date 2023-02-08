@@ -138,6 +138,7 @@
 @media screen and (max-width: 992px) {
     .about-info{ margin-top: 40px; }
     .about .about-img::after{display: none;}
+    .about .box-anim-2, .about .box-anim-6{ display: none; }
 }
 @media screen and (max-width: 767px){
     .about .about-box .about-box-2{ margin-top: 20px; }

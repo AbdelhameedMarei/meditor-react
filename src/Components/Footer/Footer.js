@@ -14,7 +14,7 @@ function Footer() {
             <Container>
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
-                        <Navbar.Brand>
+                        <Navbar.Brand href="#">
                             <Link to="/">
                                 <img src={logo} alt="logo" />
                             </Link>

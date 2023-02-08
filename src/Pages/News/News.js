@@ -12,7 +12,6 @@ import sliderImgInfo4 from './../../Assets/test-04.jpg';
 import 'swiper/css';
 import './News.css';
 
-
 function News() {
     return (
         <section className="news">
@@ -23,7 +22,16 @@ function News() {
                 </div>
                 <Swiper
                     spaceBetween={30}
-                    slidesPerView={2}
+                    breakpoints={{
+                        // when window width is >= 640px
+                        400: {
+                            slidesPerView: 1,
+                        },
+                        // when window width is >= 768px
+                        992: {
+                            slidesPerView: 2,
+                        },
+                    }}
                 >
                     <SwiperSlide className="news-content">
                         <div className="news-card">

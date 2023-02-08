@@ -7,10 +7,12 @@ import Services from "./Pages/Services/Services";
 import Testimonial from "./Pages/Testimonial/Testimonial";
 import News from "./Pages/News/News";
 import Footer from "./Components/Footer/Footer";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
       return (
         <>
+          <ScrollToTop />
           <Header />
           <Home />
           <About  />
