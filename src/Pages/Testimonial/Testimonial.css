@@ -21,6 +21,7 @@
     border-radius: 25px 0 25px 25px;
     color: #fff;
     position: relative;
+    cursor: grab;
 }
 .testimonial .slider p{
     max-width: 90%;
